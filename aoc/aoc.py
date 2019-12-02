@@ -2,7 +2,7 @@ import configparser
 import click
 import os
 
-from aoc.scripts.aoc.commands import *
+from aoc.cli.commands import *
 from aoc.util.config import Config
 
 
