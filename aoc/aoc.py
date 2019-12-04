@@ -20,4 +20,5 @@ def cli(ctx):
 [cli.add_command(day) for day in [
     day1,
     day2,
+    day3,
 ]]
