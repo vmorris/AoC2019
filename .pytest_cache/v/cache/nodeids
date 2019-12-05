@@ -1,0 +1,19 @@
+[
+  "tests/test_day1.py::test_calculate_fuel_no_recalc",
+  "tests/test_day1.py::test_calculate_fuel_recalc",
+  "tests/test_day2.py::test_create_machine",
+  "tests/test_day2.py::test_machine_load_from_csv",
+  "tests/test_day2.py::test_machine_reset",
+  "tests/test_day2.py::test_machine_step",
+  "tests/test_day2.py::test_machine_run",
+  "tests/test_day2.py::test_machine_halt",
+  "tests/test_day2.py::test_machine_fetch",
+  "tests/test_day2.py::test_machine_fetch_and_halt",
+  "tests/test_day2.py::test_machine_decode",
+  "tests/test_day2.py::test_machine_execute_halt",
+  "tests/test_day2.py::test_machine_execute_add",
+  "tests/test_day2.py::test_machine_execute_mul",
+  "tests/test_day2.py::test_machine_case1",
+  "tests/test_day4.py::test_is_increasing",
+  "tests/test_day4.py::test_has_double"
+]

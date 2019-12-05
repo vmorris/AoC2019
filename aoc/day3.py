@@ -141,7 +141,14 @@ def day3(data):
     for f in filtered:
         to_calc.append((wire1_path, wire2_path, f))
 
+    print(len(to_calc))
+    '''
+
     delays = p.map(calculate_delay, to_calc)
         
     print(min(delays))
+    '''
     
+if __name__ == '__main__':
+    import sys
+    day3(sys.argv[1])
