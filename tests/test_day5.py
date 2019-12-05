@@ -74,7 +74,7 @@ def test_machine_case1():
     machine.run()
     assert machine.storage[0] == 3500
     
-def test_machine_case2():
-    machine = day5.machine()
-    machine.load_from_csv(code2)
-    machine.run()
+#def test_machine_case2():
+#    machine = day5.machine()
+#    machine.load_from_csv(code2)
+#    machine.run()
