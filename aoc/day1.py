@@ -1,4 +1,5 @@
 import math
+import sys
 
 
 def calculate_fuel(mass, recalc_for_fuel=False):
@@ -13,8 +14,8 @@ def calculate_fuel(mass, recalc_for_fuel=False):
     return fuel
 
 
-def day1(data):
-    with open(data, 'r') as f:
+if __name__ == '__main__':
+    with open(sys.argv[1], 'r') as f:
         modules = f.readlines()
     result = 0
     for m in modules:
